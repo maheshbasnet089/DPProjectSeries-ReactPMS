@@ -5,6 +5,7 @@ import Navbar from "../../components/Navbar"
 
 
 function CreateProduct(){
+    
     return(
         <>
             <Navbar />

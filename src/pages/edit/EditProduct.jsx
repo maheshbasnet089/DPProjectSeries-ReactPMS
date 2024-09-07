@@ -7,8 +7,6 @@ import { useEffect, useState } from "react"
 
 function EditProduct(){
     const {id} = useParams()
-
-     
     return(
         <>
             <Navbar/>
