@@ -1,7 +1,9 @@
-import { Link } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import Navbar from "../../components/Navbar"
 
 function SingleProduct(){
+    const haha = useParams()
+    console.log(haha)
     return (
         <>
             <Navbar />
