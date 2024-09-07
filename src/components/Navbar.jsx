@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 function Navbar(){
     return(
@@ -25,7 +26,7 @@ function Navbar(){
         </div>
         <div className="hidden sm:ml-6 sm:block">
           <div className="flex space-x-4">
-            <a href="#" className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white" aria-current="page">+ Add</a>
+            <Link to="/create" className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white" aria-current="page">+ Add</Link>
     
           </div>
         </div>
