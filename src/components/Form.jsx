@@ -8,7 +8,6 @@ function Form({type,id}){
     const fetchProduct = async()=>{
         const response = await axios.get("https://66dc84a447d749b72acbc6e6.mockapi.io/products/" + id)
         if(response.status === 200){
-            
             setData(response.data)
         }
     }
@@ -26,6 +25,8 @@ function Form({type,id}){
             [name] : value
         })
     }
+
+    console.log(data)
     const createProduct  = async (e)=>{
         e.preventDefault()
         if(type === "create"){

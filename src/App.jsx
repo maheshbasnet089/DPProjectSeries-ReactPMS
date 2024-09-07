@@ -3,7 +3,7 @@ import './App.css'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Home from './pages/home/Home'
 import CreateProduct from './pages/create/CreateProduct'
-import EditProduct from './pages/edit/editProduct'
+import EditProduct from './pages/edit/EditProduct'
 import SingleProduct from './pages/single/SingleProduct'
 
 function App() {
